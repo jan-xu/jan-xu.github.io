@@ -6,9 +6,8 @@ layout: default
 title: Home
 ---
 
-# Jan Xu
+# Jan Xu - Machine Learning Engineer
 
-## About Me
 Hello! I'm Jan, a Machine Learning Engineer with a passion for useful ML applications in the world. My background consists of an MEng in Civil Engineering and ~5 years at an AI startup working on developing video compression algorithms using Deep Learning.
 
 I primarily code in Python and extensively use ML packages such as PyTorch and Scikit-learn.
