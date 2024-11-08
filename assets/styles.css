@@ -1,0 +1,47 @@
+/* assets/styles.css */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-box h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.project-box p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+img.profile-photo {
+    width: 100px;  /* Adjust as needed */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 50%;  /* For circular photos */
+    display: block;
+    margin: 0 auto;  /* Center the image */
+  }
