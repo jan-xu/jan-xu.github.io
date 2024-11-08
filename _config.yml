@@ -29,7 +29,7 @@ github_username: jan-xu
 google_scholar_username: RWnn_LcAAAAJ
 
 # Build settings
-theme: jekyll-theme-minima
+theme: minima
 plugins:
   - jekyll-feed
 
