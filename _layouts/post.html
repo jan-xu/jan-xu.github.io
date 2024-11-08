@@ -1,22 +1,14 @@
-<!-- _layouts/post.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p><small>Published on {{ page.date | date: "%B %d, %Y" }}</small></p>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <a href="/blog">Back to Blog</a>
-  </footer>
-</body>
-</html>
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}

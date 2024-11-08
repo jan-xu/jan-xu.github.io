@@ -1,0 +1,10 @@
+<!-- _includes/footer.html -->
+
+<footer>
+    <ul class="footer-links">
+      {% if site.social_links.github %}<li><a href="{{ site.social_links.github }}">GitHub</a></li>{% endif %}
+      {% if site.social_links.linkedin %}<li><a href="{{ site.social_links.linkedin }}">LinkedIn</a></li>{% endif %}
+      {% if site.social_links.google_scholar %}<li><a href="{{ site.social_links.google_scholar }}">Google Scholar</a></li>{% endif %}
+      {% if site.email %}<li><a href="mailto:{{ site.email }}">Email</a></li>{% endif %}
+    </ul>
+</footer>

@@ -1,11 +1,9 @@
 ---
 layout: default
-title: "Blog"
+title: Blog
 ---
 
-# Blog
-
-Welcome to my blog! Here are some of the things I've been working on and learning.
+# Blog posts
 
 <ul>
   {% for post in site.posts %}
